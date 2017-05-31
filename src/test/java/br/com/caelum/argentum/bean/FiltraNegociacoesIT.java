@@ -62,8 +62,7 @@ public class FiltraNegociacoesIT {
 			
 			iniciaPhantomJs();
 			
-		} else if (System.getProperty("webdriver.chrome.driver","/home/felipe/Documentos/Estudos/Java/DevOps/Recursos
-/chromedriver") != null) {
+		} else if (System.getProperty("webdriver.chrome.driver","/home/felipe/Documentos/Estudos/Java/DevOps/Recursos/chromedriver") != null) {
 			
 			iniciaChrome();
 			
