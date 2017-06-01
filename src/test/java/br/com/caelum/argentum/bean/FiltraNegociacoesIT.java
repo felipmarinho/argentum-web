@@ -31,7 +31,7 @@ import org.openqa.selenium.remote.DesiredCapabilities;
 public class FiltraNegociacoesIT {
 
 	private static final SimpleDateFormat SDF = new SimpleDateFormat("ddMMyyyy");
-	private static final String HTTP_LOCALHOST_8888 = "http://localhost:8888";
+	private static final String HTTP_LOCALHOST_8888 = "http://localhost:8080";
 	private WebDriver driver;
 
 	@Deployment
